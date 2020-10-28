@@ -43,7 +43,7 @@ for (i in 1:length(ListaPNAD$`Lista dentro do arquivo zip`)){
 
     # Unindo a base do indicador iterado à basePNAD
     basePNAD <- rbind(basePNAD, buscar)
-      }
+    }
 }
 
 write.csv(basePNAD, "basePNAD.csv", row.names = FALSE)
